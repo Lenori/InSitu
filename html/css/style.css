@@ -1,0 +1,212 @@
+/*
+System: In Situ Review System
+Author: Leo Lenori
+Description: Web system for collecting customer review
+Version: 0.0.1
+*/
+
+.fas {
+
+    line-height: inherit !important;
+
+}
+
+a, a:visited, a:hover {
+
+    color: inherit;
+    font-size: inherit;
+    text-decoration: none;
+
+}
+
+body {
+
+    font-family: 'Open Sans', sans-serif !important;
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 1100px;
+    }
+
+}
+
+@media (min-width: 1620px) {
+
+    .container {
+        width: 1600px;
+    }
+
+}
+
+.review-header {
+
+    width: 80%;
+    margin: 0 auto 35px;
+    text-align: center;
+
+}
+
+.review-header h1 {
+
+
+
+}
+
+.review-header img {
+
+    max-width: 200px;
+    margin: auto;
+
+}
+
+.review-links {
+
+    margin: 50px auto;
+
+}
+
+.review-button {
+
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+
+}
+
+.review-close {
+
+    display: none;
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.review-form {
+
+    display: none;
+
+}
+
+.review-form form, .login-form form {
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.review-form input, .login-form input, .review-form textarea {
+
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+
+.review-form button, .login-form button {
+
+    border: none;
+
+}
+
+.review-stars {
+
+    text-align: left;
+    margin: 10px 0 20px;
+
+}
+
+.review-stars span {
+
+    font-size: 30px;
+    margin-right: 15px;
+
+}
+
+.star-unclicked {
+
+    color: #ff810054;
+
+}
+
+.star-clicked {
+
+    color: #ff8100;
+
+}
+
+.login-form form {
+
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.login-form input {
+
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #e6e6e6;
+
+}
+
+.login-form button {
+
+    border: none;
+    background-color: #5d8dd4;
+    color: white;
+
+}
+
+.admin-list-clinicas span {
+
+    font-size: 20px;
+    margin-right: 4px;
+
+}
+
+.admin-edit-clinica form {
+
+    width: 50%;
+    margin: 100px 0;
+    text-align: center;
+
+}
+
+.edit-clinica input {
+
+    border: none;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #e6e6e6;
+
+}
+
+.edit-clinica label {
+
+    float: left;
+    margin-bottom: 10px;
+
+}
+
+.edit-clinica button {
+
+    border: none;
+    background-color: #5d8dd4;
+    color: white;
+    float: left;
+    width: 200px;
+    padding: 20px;
+}
